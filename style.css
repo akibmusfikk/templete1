@@ -1,0 +1,120 @@
+
+
+ .navbar-brand{
+background-color: rgb(10, 223, 176);
+color: white;
+}
+
+.about {
+
+    margin-top: 4rem;
+
+}
+
+.heading{ 
+
+    margin-bottom: 4rem;
+
+}
+
+.banner { 
+    background: url(sailboat.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    padding: 2rem;
+
+    }
+
+    .work-sec {
+        width: 98%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        padding-bottom: 60px;
+    }
+    img{
+
+        width: 100%;
+    }
+
+    .image {
+
+        width: 55%;
+    }
+
+    .price-item{
+
+        border: 1px solid black;
+    }
+
+    .p1{
+
+        border-bottom: 1px solid lightgray;
+    }
+
+    .h3 { 
+        background-color: black;
+        color: white; 
+    }
+
+    .price-box {
+        width: 98%;
+        margin: 0 auto;
+        line-height: 3;
+        margin-top: 65px;
+    }
+
+    .contact{ display: flex;
+        width: 98%;
+        margin: 0 auto;
+        
+    
+    }
+
+    .contact-sec{
+        width: 40%;
+    }
+
+    .main-contact { 
+        background: lightgray;
+        padding-top: 4rem;
+        margin-top: 4rem;
+        padding-bottom: 3rem;
+     }
+
+    .input-sec{
+        width: 60%;
+        border-bottom: 1px solid gray;
+        background: white;
+        padding: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.51) 0px 8px 24px;
+    }
+
+    .c-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form-control{
+        border: none !important;
+        border-bottom: 1px solid #81808062 !important;
+        background-color: white !important;
+    }
+
+    .contact-sec p i{
+        font-size: 25px;
+        color: green;
+    }
+
+
+    @media only screen and (max-width: 762px) {
+
+        .image {
+
+            width: 55%;
+            margin: 0 auto;
+        }
+        
+    }
